@@ -1,9 +1,13 @@
 package com.yaswanth.domain;
-
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonInclude.Include;
+import com.fasterxml.jackson.annotation.JsonProperty;
+@JsonInclude(value=Include.NON_NULL)
 public class Student {
-	String StudentName;
-	int StudentAge;
-	String CourseEnrolled;
+	@JsonProperty("Name")
+	private String StudentName;
+	private int StudentAge;
+	private String CourseEnrolled;
 	public String getStudentName() {
 		return StudentName;
 	}

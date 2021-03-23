@@ -1,0 +1,17 @@
+[{
+"studentName": "Venkatesh",
+"studentAge": 30,
+"courseEnrolled": "Restful services"
+},
+{
+"studentName": "Sagar",
+"studentAge": 28,
+"courseEnrolled": "Restful services"
+},
+{
+"studentName": "Noor",
+"studentAge": 31,
+"courseEnrolled": "Restful services"
+}
+]
+
